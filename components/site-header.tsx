@@ -19,7 +19,7 @@ export function SiteHeader() {
             <Scale className="h-5 w-5" aria-hidden="true" />
           </span>
           <span className="flex flex-col leading-tight">
-            <span className="text-lg font-semibold text-foreground">Notary.bd</span>
+            <span className="text-lg font-semibold text-foreground">Notary</span>
             <span className="hidden text-[11px] font-sans uppercase tracking-widest text-muted-foreground sm:inline">
               Trusted Legal Services
             </span>
