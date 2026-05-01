@@ -10,7 +10,7 @@ const page: ServicePage = {
     "Notarized financial support and sponsorship affidavits for visa, study, and immigration in Bangladesh. Drafted by lawyers, accepted by every major embassy.",
   hero: {
     eyebrow: "Affidavit Services",
-    heading: "Sponsorship Letter & Financial Support Affidavits",
+    heading: "Sponsorship Letter & Financial Support Affidavits.",
     subheading:
       "When an applicant cannot self-fund a visa, study or migration, a strong financial support affidavit makes all the difference. We draft and notarize them so they pass embassy scrutiny on the first try.",
     image: "/images/hero-affidavit-services.jpg",
