@@ -10,7 +10,7 @@ const page: ServicePage = {
     "Lawyer-drafted, notarized marriage and divorce affidavits in Bangladesh. Single status, joint declaration, divorce confirmation and name change after marriage.",
   hero: {
     eyebrow: "Affidavit Services",
-    heading: "Marriage And Divorce Affidavits — Lawyer-Drafted, Court-Accepted",
+    heading: "Marriage And Divorce Affidavits — Lawyer-Drafted, Court-Accepted.",
     subheading:
       "From single status declarations to divorce confirmation and post-marriage name changes, our family-law specialists prepare and notarize sensitive marital affidavits with care and precision.",
     image: "/images/hero-affidavit-services.jpg",
