@@ -52,7 +52,7 @@ export const categories: ServiceCategory[] = [
     metaTitle: "Affidavit Services in Bangladesh — Online Affidavit Drafting | Notary.bd",
     metaDescription:
       "Draft, sign and notarize legally valid affidavits online in Bangladesh. Name correction, financial support, POA, marriage and divorce affidavits — all 100% online.",
-    heroImage: "/images/hero-affidavit-services.jpg",
+    heroImage: "/images/Affidavit-services-in-bangladesh.webp",
     services: [
       {
         slug: "online-affidavit-services",
