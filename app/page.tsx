@@ -63,7 +63,7 @@ export default function HomePage() {
               Bangladesh&apos;s #1 Online Notary
             </span>
             <h1 className="mt-4 font-serif text-3xl font-semibold leading-tight text-balance md:text-5xl lg:text-6xl">
-              Fast, Secure & Certified Notary Public Services in Bangladesh — without leaving home.
+              Notary Public Services in Bangladesh — Without leaving home.
             </h1>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-primary-foreground/80 md:text-lg">
               Notary.bd is the trusted online legal platform for licensed notary public, affidavit drafting,
