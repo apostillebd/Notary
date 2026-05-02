@@ -167,7 +167,7 @@ const page: ServicePage = {
     heading: "Ready to notarize your document online?",
     subheading:
       "Get a licensed notary public in Bangladesh to notarize your document today — without leaving your home or office.",
-    primaryCta: { label: "Start Notarization Now", href: "/contact" },
+    primaryCta: { label: "Call Now Whatsapp", href: "/contact" },
     secondaryCta: { label: "Talk to a Legal Expert", href: "/contact" },
   },
 }

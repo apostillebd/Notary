@@ -9,7 +9,7 @@ import type { ServiceCategory } from "@/lib/types"
 export const categories: ServiceCategory[] = [
   {
     slug: "notary-services",
-    title: "Notary Services",
+    title: "Notary Services In Bangladesh",
     description:
       "Licensed online notary public services in Bangladesh — notarize affidavits, agreements, sponsorship letters and more, with documents accepted across embassies, courts and government offices worldwide.",
     metaTitle: "Notary Services in Bangladesh — Online Notary Public | Notary.bd",
