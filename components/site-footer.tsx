@@ -25,10 +25,10 @@ export function SiteFooter() {
                 <Phone className="h-4 w-4 text-accent" /> +880 1700-000000
               </div>
               <div className="flex items-center gap-2 text-primary-foreground/80">
-                <Mail className="h-4 w-4 text-accent" /> hello@notary.bd
+                <Mail className="h-4 w-4 text-accent" /> info @ notary.bd
               </div>
               <div className="flex items-start gap-2 text-primary-foreground/80">
-                <MapPin className="h-4 w-4 text-accent mt-0.5" /> Gulshan, Dhaka, Bangladesh
+                <MapPin className="h-4 w-4 text-accent mt-0.5" /> Dhaka, Bangladesh
               </div>
             </div>
           </div>
