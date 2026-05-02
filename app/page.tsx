@@ -114,7 +114,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-3xl text-center">
             <span className="text-xs font-semibold uppercase tracking-widest text-accent">What we do</span>
             <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight text-balance md:text-3xl lg:text-4xl">
-              Expert Notarization, Apostille & Translation Services
+              Expert Notarization, Apostille And Translation Services
             </h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
               Every service you need to use your Bangladeshi documents anywhere in the world.
