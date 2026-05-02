@@ -15,7 +15,7 @@ export const categories: ServiceCategory[] = [
     metaTitle: "Notary Services in Bangladesh — Online Notary Public | Notary.bd",
     metaDescription:
       "Bangladesh's most trusted online notary public service. Notarize documents, agreements, sponsorship letters and affidavits 100% online with same-day delivery.",
-    heroImage: "/images/hero-notary-services.jpg",
+    heroImage: "/images/Notary_Public_Bangladesh.webp",
     services: [
       {
         slug: "online-notary-public-bangladesh",
