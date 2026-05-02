@@ -121,7 +121,7 @@ export const categories: ServiceCategory[] = [
     metaTitle: "Certified Translation Services in Bangladesh | Notary.bd",
     metaDescription:
       "Sworn translation in English, Spanish, Arabic, Italian, Portuguese, German and French. Notarized and apostille-ready translations for embassies, courts and universities.",
-    heroImage: "/images/hero-translation-services.jpg",
+    heroImage: "/images/Translator_Services-Bangladesh.webp",
     services: [
       {
         slug: "certified-english-spanish-translation",
