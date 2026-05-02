@@ -89,7 +89,7 @@ export const categories: ServiceCategory[] = [
     metaTitle: "Apostille & Legalization Services in Bangladesh | MOFA | Notary.bd",
     metaDescription:
       "Get your documents apostilled and legalized through MOFA Bangladesh. Educational, personal, birth and marriage certificate apostille and embassy attestation.",
-    heroImage: "/images/hero-apostille-legalization.jpg",
+    heroImage: "/images/Apostille-Services-In-Bangladesh.webp",
     services: [
       {
         slug: "e-apostille-mofa-bangladesh",
