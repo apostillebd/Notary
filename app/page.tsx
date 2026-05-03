@@ -96,7 +96,7 @@ export default function HomePage() {
 
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-primary-foreground/10 shadow-2xl lg:aspect-[5/4]">
             <Image
-              src="/images/hero-home.jpg"
+              src="/images/Notary Public Services in Bangladesh Hero Images.webp"
               alt="Sophisticated notary law office in Bangladesh with bookshelves and warm sunlight"
               fill
               priority
