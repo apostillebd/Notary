@@ -46,7 +46,7 @@ export const categories: ServiceCategory[] = [
   },
   {
     slug: "affidavit-services",
-    title: "Affidavit Services",
+    title: "Affidavit Services In Bangladesh",
     description:
       "Professional affidavit drafting and notarization services — including name corrections, financial support, marriage and divorce affidavits, and Power of Attorney — fully online.",
     metaTitle: "Affidavit Services in Bangladesh — Online Affidavit Drafting | Notary.bd",
