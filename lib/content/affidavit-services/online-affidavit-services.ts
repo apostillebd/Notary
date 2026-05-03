@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Online Affidavit Services — Drafted by Lawyers, Notarized in Hours",
     subheading:
       "Need an affidavit fast? Tell us what you need, sign on a video call, and receive a court-ready, notarized affidavit the same day — without leaving your home.",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
     imageAlt: "Person signing an affidavit online with notary",
     primaryCta: { label: "Start My Affidavit", href: "/contact" },
     secondaryCta: { label: "All Affidavit Services", href: "/services/affidavit-services" },
