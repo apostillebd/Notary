@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Notarized Sponsorship Letters for Visa, Study & Immigration",
     subheading:
       "We draft, review and notarize sponsorship letters that meet the strict standards of foreign embassies, universities and immigration authorities — accepted at consulates around the world.",
-    image: "/images/hero-notary-services.jpg",
+    image: "/images/Notarized-Sponsorship-Letters-for-Visa-Study.webp",
     imageAlt: "Notarized sponsorship letter document with seal and signature",
     primaryCta: { label: "Notarize Sponsorship Letter", href: "/contact" },
     secondaryCta: { label: "View All Notary Services", href: "/services/notary-services" },
