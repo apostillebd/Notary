@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Personal Documents Attestation — Civil Records, Declarations & More",
     subheading:
       "From identity declarations and NID copies to affidavits, gift deeds and consent letters, we attest your personal documents for use anywhere in the world.",
-    image: "/images/hero-apostille-legalization.jpg",
+    image: "/images/Apostille-Services-In-Bangladesh.webp",
     imageAlt: "Personal documents being verified and attested",
     primaryCta: { label: "Attest Personal Documents", href: "/contact" },
     secondaryCta: { label: "All Legalization Services", href: "/services/apostille-legalization" },

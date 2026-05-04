@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "e-Apostille from MOFA Bangladesh — Globally Recognized",
     subheading:
       "Bangladesh joined the Apostille Convention to make cross-border document use simpler. We obtain MOFA e-Apostilles on your educational, personal and commercial documents — fast, verified and trackable online.",
-    image: "/images/hero-apostille-legalization.jpg",
+    image: "/images/Apostille-Services-In-Bangladesh.webp",
     imageAlt: "Apostille certificate with embossed MOFA seal",
     primaryCta: { label: "Start My e-Apostille", href: "/contact" },
     secondaryCta: { label: "All Legalization Services", href: "/services/apostille-legalization" },

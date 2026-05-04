@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Power of Attorney — Drafted, Notarized & Registered Right",
     subheading:
       "From handling a property sale while you&apos;re abroad to authorising a bank, a lawyer or a relative to act on your behalf — our POAs are drafted by lawyers and notarized for full legal effect.",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
     imageAlt: "Power of Attorney document being signed and notarized",
     primaryCta: { label: "Draft My POA", href: "/contact" },
     secondaryCta: { label: "All Affidavit Services", href: "/services/affidavit-services" },

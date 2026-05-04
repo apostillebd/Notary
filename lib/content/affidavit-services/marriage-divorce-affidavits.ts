@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Marriage And Divorce Affidavits — Lawyer-Drafted, Court-Accepted.",
     subheading:
       "From single status declarations to divorce confirmation and post-marriage name changes, our family-law specialists prepare and notarize sensitive marital affidavits with care and precision.",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
     imageAlt: "Marriage and divorce affidavit being drafted and notarized",
     primaryCta: { label: "Confidential Consultation", href: "/contact" },
     secondaryCta: { label: "All Affidavit Services", href: "/services/affidavit-services" },

@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Sponsorship Letter & Financial Support Affidavits.",
     subheading:
       "When an applicant cannot self-fund a visa, study or migration, a strong financial support affidavit makes all the difference. We draft and notarize them so they pass embassy scrutiny on the first try.",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
     imageAlt: "Financial support affidavit document with bank statements",
     primaryCta: { label: "Notarize Financial Affidavit", href: "/contact" },
     secondaryCta: { label: "All Affidavit Services", href: "/services/affidavit-services" },

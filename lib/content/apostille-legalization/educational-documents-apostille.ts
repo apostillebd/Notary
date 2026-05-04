@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Educational Documents Apostille — Degrees, Transcripts & Certificates",
     subheading:
       "Take your Bangladeshi qualifications anywhere in the world. We handle education board verification, MOFA apostille and embassy attestation for academic documents in one coordinated service.",
-    image: "/images/hero-apostille-legalization.jpg",
+    image: "/images/Apostille-Services-In-Bangladesh.webp",
     imageAlt: "Apostilled university degree and transcripts",
     primaryCta: { label: "Apostille My Documents", href: "/contact" },
     secondaryCta: { label: "All Legalization Services", href: "/services/apostille-legalization" },

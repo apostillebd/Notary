@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Birth & Marriage Certificate Legalization",
     subheading:
       "Whether you&apos;re registering a marriage abroad, sponsoring a spouse, applying for citizenship or enrolling a child overseas, we legalize your Bangladeshi birth and marriage certificates for full international acceptance.",
-    image: "/images/hero-apostille-legalization.jpg",
+    image: "/images/Apostille-Services-In-Bangladesh.webp",
     imageAlt: "Birth and marriage certificates with apostille seal",
     primaryCta: { label: "Legalize Certificates", href: "/contact" },
     secondaryCta: { label: "All Legalization Services", href: "/services/apostille-legalization" },

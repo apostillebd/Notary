@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Name & Age Correction Affidavits — Fix Your Records, Legally",
     subheading:
       "Mistakes in your name, spelling or date of birth on certificates, NID or passport can block visas, jobs and education. We draft and notarize correction affidavits accepted by every major authority in Bangladesh.",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
     imageAlt: "Name and age correction affidavit being signed and notarized",
     primaryCta: { label: "Correct My Records", href: "/contact" },
     secondaryCta: { label: "All Affidavit Services", href: "/services/affidavit-services" },
