@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { categories } from "@/lib/categories"
 
 export const metadata: Metadata = {
-  title: "Notary.bd — Online Notary Public, Affidavit, Apostille & Translation in Bangladesh",
+  title: "Notary Services, Affidavit, Apostille & Translation in Bangladesh",
   description:
     "Bangladesh's most trusted online platform for notary public, affidavit drafting, MOFA apostille, and certified translation services. Fast, secure, accepted worldwide.",
   alternates: { canonical: "/" },
@@ -63,7 +63,7 @@ export default function HomePage() {
               Bangladesh&apos;s #1 Online Notary
             </span>
             <h1 className="mt-4 font-serif text-3xl font-semibold leading-tight text-balance md:text-5xl lg:text-6xl">
-              Notary Public Services in Bangladesh — Without leaving home.
+              Notary Services in Bangladesh — Without leaving home.
             </h1>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-primary-foreground/80 md:text-lg">
               Notary.bd is the trusted online legal platform for licensed notary public, affidavit drafting,
