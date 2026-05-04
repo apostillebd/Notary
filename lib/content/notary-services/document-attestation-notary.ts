@@ -108,12 +108,6 @@ const page: ServicePage = {
         description:
           "Final attested documents are returned to you by hand, courier, or international shipping.",
       },
-            {
-        step: 6,
-        title: "Need Custom Attestation?",
-        description:
-          "Final attested documents are returned to you by hand, courier, or international shipping.",
-      },
     ],
   },
   testimonials: {
