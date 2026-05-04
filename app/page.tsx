@@ -210,39 +210,6 @@ export default function HomePage() {
         </div>
       </section>
 
-
-      {/* Process */}
-      <section className="bg-background py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 md:px-6">
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="text-xs font-semibold uppercase tracking-widest text-accent">How it works</span>
-            <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight text-balance md:text-3xl lg:text-4xl">
-              From upload to delivery in 4 easy steps
-            </h2>
-          </div>
-          <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              { step: 1, title: "Send your document", desc: "Upload your scan and tell us what you need." },
-              { step: 2, title: "Get a fixed quote", desc: "Receive a flat fee and timeline within 1 hour." },
-              { step: 3, title: "Approve & verify", desc: "Approve the draft and complete identity verification." },
-              { step: 4, title: "Receive your document", desc: "Get your notarized document by email and courier." },
-            ].map((s) => (
-              <li
-                key={s.step}
-                className="relative rounded-xl border border-border bg-card p-6 shadow-sm"
-              >
-                <span className="absolute -top-4 left-6 flex h-9 w-9 items-center justify-center rounded-full bg-accent font-serif text-base font-semibold text-accent-foreground shadow">
-                  {s.step}
-                </span>
-                <h3 className="mt-4 font-serif text-lg font-semibold text-card-foreground">{s.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
-
-
       {/* CTA */}
       <section className="border-t border-border bg-primary py-16 text-primary-foreground md:py-20">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-4 text-center md:px-6">
