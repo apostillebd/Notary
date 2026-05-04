@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Marriage & Divorce Affidavits — Drafted, Notarized & Court-Ready",
     subheading:
       "Sensitive matters deserve discreet, professional handling. Our family-law team drafts and notarizes marriage and divorce affidavits that hold up in Bangladeshi courts and at embassies abroad.",
-    image: "/images/hero-notary-services.jpg",
+    image: "/images/Marriage-Certificate-Notary.webp",
     imageAlt: "Marriage and divorce affidavit documents with notary seal",
     primaryCta: { label: "Speak to a Family Lawyer", href: "/contact" },
     secondaryCta: { label: "All Notary Services", href: "/services/notary-services" },
