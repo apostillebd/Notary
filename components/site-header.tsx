@@ -1,8 +1,9 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image" // Image ইমপোর্ট করা হলো
 import { useState } from "react"
-import { Menu, X, ChevronDown, Scale } from "lucide-react"
+import { Menu, X, ChevronDown } from "lucide-react" // Scale আইকনটি বাদ দেওয়া হয়েছে
 import { navigation, isCategory } from "@/lib/navigation"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -14,17 +15,19 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 md:px-6 lg:h-20">
-        <Link href="/" className="flex items-center gap-2 font-serif">
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-primary text-primary-foreground">
-            <Scale className="h-5 w-5" aria-hidden="true" />
-          </span>
-          <span className="flex flex-col leading-tight">
-            <span className="text-lg font-semibold text-foreground">Notary</span>
-            <span className="hidden text-[11px] font-sans uppercase tracking-widest text-muted-foreground sm:inline">
-              Trusted Legal Services
-            </span>
-          </span>
+        
+        {/* --- লোগোর অংশ (আপডেট করা হয়েছে) --- */}
+        <Link href="/" className="flex items-center gap-2">
+          <Image 
+            src="/images/logo.png" // এখানে আপনার ছবির সঠিক নাম দিন (যেমন: logo.svg বা logo.png)
+            alt="Notary.bd Logo" 
+            width={180} // আপনার লোগো অনুযায়ী উইডথ কমান/বাড়ান
+            height={50} // আপনার লোগো অনুযায়ী হাইট কমান/বাড়ান
+            className="object-contain"
+            priority // লোগো দ্রুত লোড হওয়ার জন্য
+          />
         </Link>
+        {/* --------------------------------- */}
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
