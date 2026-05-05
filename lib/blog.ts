@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     category: "Notary Services",
     readTime: "8 min read",
     date: "April 15, 2026",
-    image: "/images/hero-notary-services.jpg",
+    image: "/images/Notary Public Services in Bangladesh Hero Images.webp",
   },
   {
     slug: "mofa-apostille-bangladesh-step-by-step",
@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
     category: "Apostille & Legalization",
     readTime: "10 min read",
     date: "March 28, 2026",
-    image: "/images/hero-apostille-legalization.jpg",
+    image: "/images/Apostille-Services-In-Bangladesh.webp",
   },
   {
     slug: "affidavit-vs-notarized-document",
@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
     category: "Affidavit Services",
     readTime: "6 min read",
     date: "March 12, 2026",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
   },
   {
     slug: "certified-translation-for-spain-visa",
@@ -52,7 +52,7 @@ export const blogPosts: BlogPost[] = [
     category: "Translation Services",
     readTime: "7 min read",
     date: "February 25, 2026",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services.webp",
   },
   {
     slug: "power-of-attorney-from-abroad",
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     category: "Affidavit Services",
     readTime: "9 min read",
     date: "February 10, 2026",
-    image: "/images/hero-affidavit-services.jpg",
+    image: "/images/Affidavit-services-in-bangladesh.webp",
   },
   {
     slug: "marriage-certificate-legalization-italy",
@@ -72,6 +72,6 @@ export const blogPosts: BlogPost[] = [
     category: "Apostille & Legalization",
     readTime: "8 min read",
     date: "January 22, 2026",
-    image: "/images/hero-apostille-legalization.jpg",
+    image: "/images/Marriage-Certificate-Notary.webp",
   },
 ]
