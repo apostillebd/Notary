@@ -20,6 +20,7 @@ export function SiteFooter() {
                 width={180} // আপনার লোগো অনুযায়ী উইডথ কমান/বাড়ান
                 height={50} // আপনার লোগো অনুযায়ী হাইট কমান/বাড়ান
                 className="object-contain"
+                className="object-contain brightness-0 invert opacity-90"
               />
             </Link>
             {/* --------------------------------- */}
