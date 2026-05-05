@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "German & French Legal Translation — Sworn, Notarized, EU-Ready",
     subheading:
       "Sworn German and French translations of your Bangladeshi documents — accepted by German, Swiss, Austrian and French embassies, courts, universities and immigration authorities. Notarized and prepared for MOFA apostille.",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services.webp",
     imageAlt: "German and French legal documents on a sworn translator's desk",
     primaryCta: { label: "Translate to German / French", href: "/contact" },
     secondaryCta: { label: "View All Translation Services", href: "/services/translation-services" },

@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Certified Italian & Portuguese Translation — Sworn, Notarized, Apostille-Ready",
     subheading:
       "Get your Bangla and English documents translated into Italian or Portuguese by sworn translators and prepared for the Italian, Portuguese and Brazilian embassies, the MOFA apostille, universities and immigration authorities.",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services.webp",
     imageAlt: "Italian and Portuguese documents on a translator's desk with notary stamp",
     primaryCta: { label: "Get My Translation Quote", href: "/contact" },
     secondaryCta: { label: "View All Translation Services", href: "/services/translation-services" },
