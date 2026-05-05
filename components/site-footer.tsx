@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Scale, Mail, Phone, MapPin } from "lucide-react"
+import Image from "next/image" // Image কম্পোনেন্ট ইমপোর্ট করা হলো
+import { Mail, Phone, MapPin } from "lucide-react" // Scale আইকনটি সরিয়ে দেওয়া হয়েছে
 import { navigation, isCategory } from "@/lib/navigation"
 
 export function SiteFooter() {
@@ -10,12 +11,19 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-14 md:px-6">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-6">
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="flex h-9 w-9 items-center justify-center rounded-md bg-accent text-accent-foreground">
-                <Scale className="h-5 w-5" aria-hidden="true" />
-              </span>
-              <span className="font-serif text-xl font-semibold">Notary.bd</span>
+            
+            {/* --- লোগোর অংশ (আপডেট করা হয়েছে) --- */}
+            <Link href="/" className="flex items-center gap-2 mb-2">
+              <Image 
+                src="/logo.png" 
+                alt="Notary.bd Logo" 
+                width={180} // আপনার লোগো অনুযায়ী উইডথ কমান/বাড়ান
+                height={50} // আপনার লোগো অনুযায়ী হাইট কমান/বাড়ান
+                className="object-contain"
+              />
             </Link>
+            {/* --------------------------------- */}
+
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-primary-foreground/75">
               Bangladesh&apos;s trusted online platform for notary public, affidavit drafting, MOFA apostille, and
               certified translation services. Legally recognized worldwide.
