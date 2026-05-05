@@ -27,13 +27,18 @@ export function CtaSection({ data }: { data: ServicePage }) {
             </Link>
           </Button>
 
-          {/* --- হোয়াটসঅ্যাপ লিংক যুক্ত ফোন নাম্বার বাটন --- */}
-          <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
+          {/* --- হোয়াটসঅ্যাপ লিংক যুক্ত ফোন নাম্বার বাটন (আপডেট করা আউটলাইন ডিজাইন) --- */}
+          <Button 
+            asChild 
+            size="lg" 
+            variant="outline" 
+            className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+          >
             <Link 
               href="https://api.whatsapp.com/send/?phone=8801611903078&text=hi&type=phone_number&app_absent=0" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 font-medium"
             >
               <Phone className="h-4 w-4" />
               +880 1611 903 078
