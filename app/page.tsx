@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, ShieldCheck, Globe2, Clock, Award, BadgeCheck, Users, Phone } from "lucide-react" // Phone আইকনটি যুক্ত করা হয়েছে
+import { ArrowRight, ShieldCheck, Globe2, Clock, Award, BadgeCheck, Users, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { categories } from "@/lib/categories"
 
@@ -224,8 +224,13 @@ export default function HomePage() {
               <Link href="/contact">Start Now</Link>
             </Button>
 
-            {/* --- হোয়াটসঅ্যাপ লিংক যুক্ত ফোন নাম্বার বাটন --- */}
-            <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
+            {/* --- হোয়াটসঅ্যাপ লিংক যুক্ত ফোন নাম্বার বাটন (আপডেট করা আউটলাইন ডিজাইন) --- */}
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+            >
               <Link 
                 href="https://api.whatsapp.com/send/?phone=8801611903078&text=hi&type=phone_number&app_absent=0" 
                 target="_blank" 
