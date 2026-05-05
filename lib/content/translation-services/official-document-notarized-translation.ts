@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Official Document Notarized Translation — One Service, Full Legal Validity",
     subheading:
       "Get any official document — civil, academic, employment, financial or corporate — translated, certified and notarized in one streamlined service. Accepted by embassies, courts, banks, universities and government departments worldwide.",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services-in-Bangladesh.webp",
     imageAlt: "Notarized translation document with stamp and seal on a wooden desk",
     primaryCta: { label: "Get Notarized Translation", href: "/contact" },
     secondaryCta: { label: "View All Translation Services", href: "/services/translation-services" },

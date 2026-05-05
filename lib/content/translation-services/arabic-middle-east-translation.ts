@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Arabic & Middle East Translation — Accepted Across the Gulf",
     subheading:
       "Certified Bangla–Arabic and English–Arabic translation by sworn translators, notarized and prepared for embassy attestation. Trusted by expatriates, employers and recruitment agencies for Saudi Arabia, UAE, Qatar, Kuwait, Oman and Bahrain.",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services-in-Bangladesh.webp",
     imageAlt: "Arabic legal documents and translator's pen on a wooden desk",
     primaryCta: { label: "Translate to Arabic Now", href: "/contact" },
     secondaryCta: { label: "View All Translation Services", href: "/services/translation-services" },

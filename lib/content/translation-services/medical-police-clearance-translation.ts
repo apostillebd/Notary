@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Medical & Police Clearance Translation — Visa, Work, Immigration Ready",
     subheading:
       "Certified translation of your Bangladesh police clearance certificate (PCC) and medical reports into English, Arabic, Spanish, Italian, Portuguese, German or French — notarized and apostilled for any embassy in the world.",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services.webp",
     imageAlt: "Police clearance certificate and medical report on a translator's desk",
     primaryCta: { label: "Translate My PCC / Medical Report", href: "/contact" },
     secondaryCta: { label: "View All Translation Services", href: "/services/translation-services" },
