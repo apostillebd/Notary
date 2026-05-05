@@ -13,7 +13,7 @@ const page: ServicePage = {
     heading: "Certified English & Spanish Translation — Sworn, Notarized, Globally Accepted",
     subheading:
       "Get your Bangla, English or Spanish documents translated by sworn legal translators and notarized for use in embassies, courts, universities and immigration offices in Spain, Latin America, the US, the UK and beyond.",
-    image: "/images/hero-translation-services.jpg",
+    image: "/images/Translation-Services-in-Bangladesh.webp",
     imageAlt: "Multilingual legal documents and translator's certified stamp on a desk",
     primaryCta: { label: "Request a Translation Quote", href: "/contact" },
     secondaryCta: { label: "View All Translation Services", href: "/services/translation-services" },
