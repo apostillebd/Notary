@@ -16,14 +16,18 @@ export function CtaSection({ data }: { data: ServicePage }) {
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
           
-          {/* Primary CTA (Start Now) */}
+          {/* Primary CTA (Call Now Whatsapp) */}
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href={cta.primaryCta.href}>
+            <Link 
+              href="https://api.whatsapp.com/send/?phone=8801611903078&text=hi&type=phone_number&app_absent=0"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               {cta.primaryCta.label} <ArrowRight className="ml-1.5 h-4 w-4" />
             </Link>
           </Button>
 
-          {/* --- হোয়াটসঅ্যাপ লিংক যুক্ত নতুন বাটন --- */}
+          {/* --- হোয়াটসঅ্যাপ লিংক যুক্ত ফোন নাম্বার বাটন --- */}
           <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
             <Link 
               href="https://api.whatsapp.com/send/?phone=8801611903078&text=hi&type=phone_number&app_absent=0" 
@@ -32,12 +36,12 @@ export function CtaSection({ data }: { data: ServicePage }) {
               className="flex items-center gap-2"
             >
               <Phone className="h-4 w-4" />
-              01611-903078
+              +880 1611 903 078
             </Link>
           </Button>
           {/* ------------------- */}
 
-          {/* Secondary CTA (View All Services) */}
+          {/* Secondary CTA (Talk to a Legal Expert) */}
           {cta.secondaryCta && (
             <Button
               asChild
