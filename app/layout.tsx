@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
+import WhatsAppButton from "@/components/whatsapp-button" // নতুন WhatsAppButton ইমপোর্ট করা হয়েছে
 import "./globals.css"
 
 const inter = Inter({
@@ -56,6 +57,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <WhatsAppButton /> {/* সবার নিচে WhatsApp বাটন যোগ করা হয়েছে */}
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
