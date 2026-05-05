@@ -15,7 +15,7 @@ export function SiteFooter() {
             {/* --- লোগোর অংশ (আপডেট করা হয়েছে) --- */}
             <Link href="/" className="flex items-center gap-2 mb-2">
               <Image 
-                src="/logo.png" 
+                src="/images/logo.png"
                 alt="Notary.bd Logo" 
                 width={180} // আপনার লোগো অনুযায়ী উইডথ কমান/বাড়ান
                 height={50} // আপনার লোগো অনুযায়ী হাইট কমান/বাড়ান
