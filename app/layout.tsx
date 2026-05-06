@@ -1,9 +1,10 @@
 import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script" // <-- Google Analytics এর জন্য Script ইমপোর্ট করা হয়েছে
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import WhatsAppButton from "@/components/whatsapp-button" // নতুন WhatsAppButton ইমপোর্ট করা হয়েছে
+import WhatsAppButton from "@/components/whatsapp-button" // নতুন WhatsAppButton ইমপোর্ট করা হয়েছে
 import "./globals.css"
 
 const inter = Inter({
@@ -54,10 +55,27 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} bg-background`}>
       <body className="font-sans antialiased min-h-screen flex flex-col">
+        
+        {/* --- Google Analytics এর কোড শুরু --- */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-VX7GEZP1EF"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-VX7GEZP1EF');
+          `}
+        </Script>
+        {/* --- Google Analytics এর কোড শেষ --- */}
+
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
-        <WhatsAppButton /> {/* সবার নিচে WhatsApp বাটন যোগ করা হয়েছে */}
+        <WhatsAppButton /> {/* সবার নিচে WhatsApp বাটন যোগ করা হয়েছে */}
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
