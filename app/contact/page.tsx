@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 const contactDetails = [
-  { icon: Phone, label: "Call / WhatsApp", value: "+880 1700-000000", href: "tel:+8801700000000" },
+  { icon: Phone, label: "Call / WhatsApp", value: "+880 1611 903 078", href: "tel:+880 1611 903 078" },
   { icon: Mail, label: "Email", value: "hello@notary.bd", href: "mailto:hello@notary.bd" },
   { icon: MapPin, label: "Office", value: "Gulshan Avenue, Dhaka 1212, Bangladesh" },
   { icon: Clock, label: "Hours", value: "Sun – Thu: 9:00 AM – 9:00 PM | Fri – Sat: 10:00 AM – 6:00 PM" },

@@ -31,7 +31,7 @@ export function SiteFooter() {
             </p>
             <div className="mt-6 space-y-2 text-sm">
               <div className="flex items-center gap-2 text-primary-foreground/80">
-                <Phone className="h-4 w-4 text-accent" /> +880 1700-000000
+                <Phone className="h-4 w-4 text-accent" /> +880 1611 903 078
               </div>
               <div className="flex items-center gap-2 text-primary-foreground/80">
                 <Mail className="h-4 w-4 text-accent" /> info @ notary.bd
