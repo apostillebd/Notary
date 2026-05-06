@@ -68,6 +68,13 @@ export function ContactForm() {
                 ))}
               </optgroup>
             ))}
+            
+            {/* --- নতুন যুক্ত করা Other Services অপশন --- */}
+            <optgroup label="Others">
+              <option value="Other Services">Other Services</option>
+            </optgroup>
+            {/* --------------------------------------- */}
+
           </select>
         </div>
       </div>
