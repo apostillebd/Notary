@@ -41,7 +41,7 @@ export function CtaSection({ data }: { data: ServicePage }) {
               className="flex items-center gap-2 font-medium"
             >
               <Phone className="h-4 w-4" />
-              +880 1611 903 078
+              +880 1820 196 166
             </Link>
           </Button>
           {/* ------------------- */}
