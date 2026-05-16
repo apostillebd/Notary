@@ -15,7 +15,7 @@ export default function WhatsAppButton() {
   }, [isOpen]);
 
   // আপনার দেওয়া হোয়াটসঅ্যাপ নাম্বারটি (কান্ট্রি কোডসহ)
-  const phoneNumber = "8801611903078";
+  const phoneNumber = "+880 1820 196 166";
 
   const handleSend = () => {
     const text = message.trim() || "Hello, I would like to know more about your notary services.";

@@ -35,7 +35,7 @@ export function CtaSection({ data }: { data: ServicePage }) {
             className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
           >
             <Link 
-              href="https://api.whatsapp.com/send/?phone=8801611903078&text=hi&type=phone_number&app_absent=0" 
+              href="https://api.whatsapp.com/send/?phone=8801820196166&text&type=phone_number&app_absent=0" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-medium"
