@@ -19,7 +19,7 @@ export function CtaSection({ data }: { data: ServicePage }) {
           {/* Primary CTA (Call Now Whatsapp) */}
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
             <Link 
-              href="https://api.whatsapp.com/send/?phone=8801611903078&text=hi&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=8801820196166&text&type=phone_number&app_absent=0"
               target="_blank" 
               rel="noopener noreferrer"
             >
